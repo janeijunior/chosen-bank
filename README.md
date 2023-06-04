@@ -1,1 +1,1 @@
-# chose-bank
+# chosen-bank
