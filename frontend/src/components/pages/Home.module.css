@@ -1,0 +1,116 @@
+.pet_home_header {
+  margin-bottom: 2em;
+}
+
+.pet_home_header h1 {
+  margin-bottom: 0.3em;
+}
+
+.pet_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.pet_card {
+  width: 22%;
+  margin: 1.5%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pet_card_image {
+  background-size: cover;
+  background-position: center;
+  height: 225px;
+  width: 100%;
+  margin-bottom: 1.2em;
+}
+
+.pet_card h3 {
+  color: #16479d;
+  margin-bottom: 1em;
+  font-size: 1.6em;
+  padding: 8px;
+}
+
+.pet_card p {
+  margin-bottom: 1em;
+}
+
+.pet_card a {
+  border-radius: 8px;
+  color: #16479d;
+  background-color: #ffd400;
+  border: none;
+  min-width: 100px;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.pet_card a:hover {
+  background-color: #e7c30d;
+  color: #fff;
+}
+
+.adopted_text {
+  font-weight: bold;
+  color: #25b456;
+  padding: 15px;
+}
+/*
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+table tr:nth-child(even){background-color: #f2f2f2;}
+table tr:hover {background-color: #ddd;}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+*/
+body{
+	font-family:Verdana;
+}
+
+#tabela{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+   	border-collapse:collapse; 
+}
+
+#tabela tbody tr{
+	border:solid 1px;
+	height:30px;
+	cursor:pointer;
+}
+
+#tabela thead{
+	background:beige;
+}
+
+#tabela thead th:nth-child(1){
+	width:100px;
+}
+
+#tabela input{
+	color:navy;
+	width:100%;
+}
+
